@@ -1,9 +1,12 @@
 # FirebaseHosting-Setup-NoCache
 
-Steps Before Deploy: 
+Steps Before Deploy:
+
 1. after setup firebase init:
 2. copy file firebase.json (FirebaseHosting-Setup-NoCache/firebase.json)
-   or copy and paste the code below into your file firebase.json
+   or copy and paste the code below into your file firebase.json:
+   
+```
 {
   "hosting": {
     "public": "public",
@@ -31,6 +34,10 @@ Steps Before Deploy:
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   }
 }
+```
+4. after that u can deploy on firebase hosting.
+5. happy real time changes website!
 
-3. After that you can deploy on firebase hosting
-4. happy realtimes change!
+
+
+
